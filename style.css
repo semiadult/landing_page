@@ -12,6 +12,11 @@
 a {
     text-decoration: none;
     color: #E5E7EB;
+    transition-duration: 0.4s;
+}
+
+a:hover {
+    color: blue;
 }
 
 ul {
@@ -119,6 +124,7 @@ button {
     border: 0;
     font-size: 15px;
     font-weight: bold;
+    
 }
 
 .title2 {
@@ -169,6 +175,23 @@ button {
 .button {
     border: #f9faf8 1px solid;
     border-radius: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button2 {
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.button2:hover {
+    background-color: blue;
+    color:white;
 }
 
 .text2 {
